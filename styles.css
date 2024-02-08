@@ -1,6 +1,7 @@
 html {
+  background: #1f2937;
   margin: 0;
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -11,17 +12,57 @@ header {
   background-color: #1f2937;
   color: white;
   height: 60px;
-}
-
-.header-content {
-  max-width: 1600px;
+  /* box-shadow: 0 0 8px rgba(0, 0, 0, 150); */
   display: flex;
   justify-content: space-between;
-  gap: 24px;
-  margin: 0 128px 0 128px;
+  padding: 8px;
 }
 
 a {
   color: white;
   text-decoration: none;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 0 240px 0 240px;
+}
+
+.header-left {
+  font-weight: 900;
+}
+
+h1 {
+  color: white;
+  font-size: 48px;
+  margin: 8px 0 8px 0;
+}
+
+p {
+  color: #e5e7eb;
+  margin: 8px 0 8px 0;
+  font-weight: 100;
+}
+.section-1 {
+  display: flex;
+  justify-content: center;
+  margin: 75px 0 75px 0;
+  gap: 64px;
+  align-items: center;
+}
+
+.hero-words {
+  max-width: 400px;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  padding: 12px 32px 12px 32px;
+  font-weight: bold;
+  border-radius: 8px;
 }
