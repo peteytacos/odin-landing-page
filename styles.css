@@ -1,0 +1,27 @@
+html {
+  margin: 0;
+  font-family: Roboto;
+}
+
+body {
+  margin: 0px;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  height: 60px;
+}
+
+.header-content {
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 0 128px 0 128px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
